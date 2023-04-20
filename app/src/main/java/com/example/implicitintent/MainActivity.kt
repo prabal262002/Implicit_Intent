@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         webButton.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)
-            intent.data = Uri.parse("https://www.xvideos2.com")
+            intent.data = Uri.parse("https://www.youtube.com")
             startActivity(intent)
         }
 
